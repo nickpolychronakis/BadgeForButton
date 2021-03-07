@@ -1,3 +1,3 @@
 # BadgeForButton
 
-A description of this package.
+Προσθέτει ένα badge με αριθμό (δηλαδή έναν αριθμό πάνω δεξιά μέσα σε κύκλο) σε ένα View.
