@@ -1,4 +1,5 @@
 import SwiftUI
+import ColorExtensions
 
 public extension View {
     
@@ -16,6 +17,7 @@ public extension View {
                         .font(font)
                         .padding(.horizontal, 3)
                         .padding(.vertical, 1)
+                        .foregroundColor(color.accessibleFontColor)
                         .background(
                             RoundedRectangle(cornerRadius: 20)
                                 .foregroundColor(color)
